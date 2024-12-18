@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .logo img {
+  width: 100px;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav .menu li {
+  margin: 0 15px;
+}
+
+nav .menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+nav .menu li a:hover {
+  color: #4CAF50;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+header .ip {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+header button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+header button:hover {
+  background-color: #45a049;
+}
+
+/* Features Section */
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.feature img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
